@@ -249,7 +249,6 @@ new Game({
     controles: '{Setas}: Movimenta a Snake.'
 });
 
-    descricao: 'O jogo Bomberdev, inspirado no clássico Bomberman tem como objetivo desenvolver o raciocínio lógico do jogador e principalmente suas habilidades algorítmicas, pois o jogador deverá montar uma estrutura de instruções que satisfaça os desafios da fase.',
 new Game({
     nome: 'Flappy Becker',
     linkImagem: '../assets/img/games/cards/flappy-becker.png',
