@@ -249,20 +249,7 @@ new Game({
     controles: '{Setas}: Movimenta a Snake.'
 });
 
-new Game({
-    nome: 'Bomberdev',
-    linkImagem: '../assets/img/games/cards/bomberman.png',
-    linkIndex: '../games/bomberdev/index.html',
-    linkGif: '../assets/img/games/gifs/snake.gif',
-    tituloDescricao: 'Bomberdev – Algoritmo',
     descricao: 'O jogo Bomberdev, inspirado no clássico Bomberman tem como objetivo desenvolver o raciocínio lógico do jogador e principalmente suas habilidades algorítmicas, pois o jogador deverá montar uma estrutura de instruções que satisfaça os desafios da fase.',
-    controles: `
-        {Setas}: Movimentação pelo fluxograma.
-        {A}: Ativa ou desativa a realocação da instrução selecionada.
-        {OK}: Executa as instruções do fluxograma principal.
-    `
-});
-
 new Game({
     nome: 'Flappy Becker',
     linkImagem: '../assets/img/games/cards/flappy-becker.png',
@@ -301,6 +288,20 @@ new Game({
     tituloDescricao: 'Pacmaze - Raciocínio lógico',
     descricao: 'O jogo Pacmaze tem como objetivo incentivar o jogador a desenvolver um raciocínio rápido, capacidade de pensar logicamente e de realizar cálculos mentais tendo de passar por uma determinada fase com o menor número de movimentos  possíveis.',
     controles: '{Setas}: Move o Pacman pelo cenário.\n{D}: Reinicia a fase.'
+});
+
+new Game({
+    nome: 'Bomberdev',
+    linkImagem: '../assets/img/games/cards/bomberman.png',
+    linkIndex: '../games/bomberdev/index.html',
+    linkGif: '../assets/img/games/gifs/bomberdev.gif',
+    tituloDescricao: 'Bomberdev – Algoritmo',
+    descricao: 'O jogo Bomberdev, inspirado no clássico Bomberman tem como objetivo desenvolver o raciocínio lógico do jogador e principalmente suas habilidades algorítmicas, pois o jogador deverá montar uma estrutura de instruções que satisfaça os desafios da fase.',
+    controles: `
+        {Setas}: Movimentação pelo fluxograma.
+        {A}: Ativa ou desativa a realocação da instrução selecionada.
+        {OK}: Executa as instruções do fluxograma principal.
+    `
 });
 
 games[0].dom.addClass('selecionado');
