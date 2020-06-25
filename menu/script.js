@@ -250,6 +250,20 @@ new Game({
 });
 
 new Game({
+    nome: 'Bomberdev',
+    linkImagem: '../assets/img/games/cards/bomberman.png',
+    linkIndex: '../games/bomberdev/index.html',
+    linkGif: '../assets/img/games/gifs/snake.gif',
+    tituloDescricao: 'Bomberdev – Algoritmo',
+    descricao: 'O jogo Bomberdev, inspirado no clássico Bomberman tem como objetivo desenvolver o raciocínio lógico do jogador e principalmente suas habilidades algorítmicas, pois o jogador deverá montar uma estrutura de instruções que satisfaça os desafios da fase.',
+    controles: `
+        {Setas}: Movimentação pelo fluxograma.
+        {A}: Ativa ou desativa a realocação da instrução selecionada.
+        {OK}: Executa as instruções do fluxograma principal.
+    `
+});
+
+new Game({
     nome: 'Flappy Becker',
     linkImagem: '../assets/img/games/cards/flappy-becker.png',
     linkIndex: '../games/flappy-becker/index.html',
