@@ -1,9 +1,9 @@
 {
 "companyName": "SilveiraL",
 "productName": "Ludum pro bono",
-"dataUrl": "bomberdev.data.unityweb",
-"wasmCodeUrl": "bomberdev.wasm.code.unityweb",
-"wasmFrameworkUrl": "bomberdev.wasm.framework.unityweb",
+"dataUrl": "Bomberdev.data.unityweb",
+"wasmCodeUrl": "Bomberdev.wasm.code.unityweb",
+"wasmFrameworkUrl": "Bomberdev.wasm.framework.unityweb",
 "TOTAL_MEMORY": 268435456,
 "graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
 "webglContextAttributes": {"preserveDrawingBuffer": false},
