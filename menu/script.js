@@ -299,7 +299,7 @@ new Game({
     controles: `
         {Setas}: Movimentação pelo fluxograma.
         {A}: Ativa ou desativa a realocação da instrução selecionada.
-        {OK}: Executa as instruções do fluxograma principal.
+        {Enter}: Executa as instruções do fluxograma principal.
     `
 });
 
