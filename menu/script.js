@@ -307,13 +307,3 @@ games[0].dom.addClass('selecionado');
 selecionar();
 
 atualizarRanking()
-
-setInterval(() => {
-    tempoParado += 1;
-
-    if (tempoParado >= tempoLimite) { // Muito tempo parado
-        slide('up');
-        $('#info').slideUp(500);
-        audio.pause();
-    }
-}, 1000);
